@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2">
+    <TextView
+        android:layout_row="0"
+        android:id="@+id/userNameCell"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="14dip"
+        />
+    <TextView
+        android:layout_row="0"
+        android:id="@+id/ageCell"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"/>
+
+    <TextView
+        android:layout_row="1"
+        android:id="@+id/emailCell"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"/>
+    <TextView
+        android:layout_row="1"
+        android:id="@+id/phoneNumberCell"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"/>
+</GridLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">displayName</string>
+    <string name="userName">userName</string>
+    <string name="confirm">Confirm</string>
+    <string name="Mydetails">My details</string>
+    <string name="username">username</string>
+    <string name="age">Age</string>
+    <string name="email">email</string>
+    <string name="phoneNumber">phone Number</string>
+</resources>
